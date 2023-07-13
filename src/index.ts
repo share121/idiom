@@ -19,6 +19,7 @@ program
       match?: ((url: URL) => boolean) | RegExp;
       get($: cheerio.CheerioAPI, url: URL): string[];
     }[] = [
+      // Configure websites to crawl
       {
         url: "https://hanyu.baidu.com/s?wd=%E4%BA%95%E4%BA%95%E6%9C%89%E6%9D%A1&device=pc&from=home",
         get($) {
