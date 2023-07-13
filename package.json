@@ -1,0 +1,22 @@
+{
+  "name": "idiom",
+  "version": "1.0.0",
+  "description": "Idiom Library",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "start": "tsc && node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0"
+  },
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  }
+}
